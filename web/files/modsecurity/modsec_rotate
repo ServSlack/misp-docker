@@ -1,0 +1,9 @@
+/var/log/apache2/modsec_audit.log
+{
+        rotate 31
+        daily
+        missingok
+        compress
+        delaycompress
+        notifempty
+}
