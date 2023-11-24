@@ -39,14 +39,17 @@ Follow configurations and improvements performed:
 
 ## Fetch files
 ```
-$ 1-) If you donÂ´t have Docker installed yeat only run " 1_Install_Docker.sh "
-# ATTENTION !!!! ---> ALL DATA PRESENT IN "/DEV/SDB1" WILL BEE LOST.
+$ 1-) If you don´t have Docker installed yeat only run " 1_Install_Docker.sh "
+# ATTENTION !!!! " ---> ALL DATA PRESENT IN "/DEV/SDB1" WILL BEE LOST. <--- ATTENTION !!!! #
+# ATTENTION !!!! " ---> ALL DATA PRESENT IN "/DEV/SDB1" WILL BEE LOST. <--- ATTENTION !!!! #
+# ATTENTION !!!! " ---> ALL DATA PRESENT IN "/DEV/SDB1" WILL BEE LOST. <--- ATTENTION !!!! #
  
 $ 2-) Once you have Docker installed propertly RUN: " 2_Build_MISP_Image.sh "
 
 $ 3-) After complete BUILD Image RUN: " 3_Create_MISP_Containers.sh " to create MISP Containers.
 
 $ 4-) When image below apears you can access your instance directly using your IP as example: " https://192.168.1.5 "
+# ATTENTION !!!! ---> Will be generated a file asked " password.txt " and I recommend you save this information in some Key Vault and after REMOVE the file.
 
                                                                   ddooooooooooooooooooooooooooooooooooooooooooooooooooooook:
                                                                ddloooooooooooooooooooooooooooooooooooooooooooooooooooooooooodx
