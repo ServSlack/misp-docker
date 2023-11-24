@@ -35,10 +35,14 @@ Follow configurations and improvements performed:
         * It will redirect 70% of POD server memory directly for Database
             - If you want you can change this value directly on " misp_db " container inside file ( /etc/bash.bashrc ) and search from the lasts two variables ( " num_cpu " and " ram_total " )
 
-# Building your image
+# Building your image and containers: Only RUN one by one of those files in the follow order and wait finish:
 
-## Fetch files
+1-) 1_Install_Docker.sh
+2-) 2_Build_MISP_Image.sh
+3-) 3_Create_MISP_Containers.sh
+
 ```
+
 $ 1-) If you don´t have Docker installed yeat only run " 1_Install_Docker.sh "
 # ATTENTION !!!! " ---> ALL DATA PRESENT IN "/DEV/SDB1" WILL BEE LOST. <--- ATTENTION !!!! #
 # ATTENTION !!!! " ---> ALL DATA PRESENT IN "/DEV/SDB1" WILL BEE LOST. <--- ATTENTION !!!! #
