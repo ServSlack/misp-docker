@@ -13,7 +13,7 @@ Follow configurations and improvements performed:
 
 * Optimization of the PHP environment (php.ini) to match the MISP recommended values
 * Creation of the MySQL database with latest MariaDB version.
-* Configure Static IPÂ´s for MISP_WEB and MISP_DB.
+* Configure Static IPs for MISP_WEB and MISP_DB.
 * Enabled new " SimpleBackGroudJobs " as default way to manage Workers 
 * Generation of the admin PGP key
 * Enabled password complexity
