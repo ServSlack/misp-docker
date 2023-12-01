@@ -85,9 +85,7 @@ sudo ldconfig
 # Install required PHP packages for Supervisor 
 cd /var/www/MISP/app
 #
-sudo printf "y\n" | sudo -E -u www-data php composer.phar require --with-all-dependencies lstrojny/fxmlrpc guzzlehttp/guzzle php-http/message jakub-onderka/openid-connect-php aws/aws-sdk-php elasticsearch/elasticsearch supervisorphp/supervisor php-http/message-factory bacon/bacon-qr-code spomky-labs/otphp
-#
-#sudo printf "y\n" | sudo -E -u www-data php composer.phar require --with-all-dependencies lstrojny/fxmlrpc guzzlehttp/guzzle psr/http-factory jakub-onderka/openid-connect-php aws/aws-sdk-php elasticsearch/elasticsearch supervisorphp/supervisor php-http/message-factory bacon/bacon-qr-code spomky-labs/otphp
+sudo printf "y\n" | sudo -E -u www-data php composer.phar require --with-all-dependencies lstrojny/fxmlrpc guzzlehttp/guzzle php-http/message jakub-onderka/openid-connect-php aws/aws-sdk-php elasticsearch/elasticsearch supervisorphp/supervisor php-http/message-factory bacon/bacon-qr-code spomky-labs/otphp geoip2/geoip2 browscap/browscap-php
 #
 cd ${PATH_TO_MISP}/app/files/scripts
 ${SUDO_WWW} ${PATH_TO_MISP}/venv/bin/pip install wheel
